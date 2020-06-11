@@ -1,4 +1,7 @@
-.PHONY: run-dev
+.PHONY: serve build
 
-run-dev:
+serve:
 	hugo server -D
+
+build:
+	hugo
