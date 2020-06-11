@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] Build page and display it
 - [ ] Add subtitle
 - [ ] Add github image
 - [ ] Add favicon
@@ -15,4 +14,5 @@
 
 # DONE
 
+- [x] Build page and display it, 2020-06-11
 - [x] Replace logo, 2020-06-11

@@ -1,5 +1,6 @@
 baseURL: https://identinet.io/
 languageCode: en-us
+publishDir: ..
 title: identinet
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
