@@ -2,7 +2,6 @@
 
 - [ ] Add subtitle
 - [ ] Add github image
-- [ ] Add favicon
 - [ ] Add support for multiple languages??
 - [ ] Change font to Comfortaa
 - [ ] Add contact details / form
@@ -14,5 +13,6 @@
 
 # DONE
 
+- [x] Add favicon, 2020-06-11
 - [x] Build page and display it, 2020-06-11
 - [x] Replace logo, 2020-06-11
