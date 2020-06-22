@@ -60,7 +60,7 @@
      cy="58.139736"
      cx="68.84848"
      id="path6540"
-     style="display:inline;fill:#e6e6e6;stroke-width:1.315" />
+     style="display:inline;fill:#fafafa;stroke-width:1.315" />
   <g
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#039be5;fill-opacity:1;stroke:#039be5;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="g1035-1"
@@ -76,13 +76,13 @@
      style="fill:none;stroke:#039BE5;stroke-width:6.749;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 33.816962,23.410546 a 6.7717133,6.7717133 0 0 1 -6.77171,6.77171 6.7717133,6.7717133 0 0 1 -6.77171,-6.77171 6.7717133,6.7717133 0 0 1 6.77171,-6.77172 6.7717133,6.7717133 0 0 1 6.77171,6.77172" />
   <g
-     style="font-size:52.8517px;line-height:36.7026px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-size:52.8517px;line-height:36.7026px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="text6638"
      transform="scale(1.0015418,0.99846058)"
      aria-label="d">
     <path
        id="path21"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.8517px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.8517px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 58.725541,75.558852 q -4.175284,0 -7.504941,-1.902661 -3.329657,-1.955513 -5.28517,-5.28517 -1.902661,-3.329657 -1.902661,-7.557793 0,-4.175284 1.849809,-7.504941 1.902661,-3.329657 5.126615,-5.232319 3.223954,-1.955512 7.293535,-1.955512 3.541064,0 6.395055,1.532699 2.853992,1.479847 4.598098,3.963877 V 36.078633 q 0,-0.951331 0.581369,-1.479848 0.581369,-0.581369 1.479848,-0.581369 0.898478,0 1.479847,0.581369 0.581369,0.528517 0.581369,1.479848 v 24.946002 q -0.105704,4.122432 -2.061216,7.45209 -1.902662,3.276805 -5.232319,5.179466 -3.276805,1.902661 -7.399238,1.902661 z m 0,-3.699619 q 3.065399,0 5.443725,-1.426996 2.431179,-1.479847 3.805323,-3.963877 1.426996,-2.48403 1.426996,-5.655132 0,-3.11825 -1.426996,-5.60228 -1.374144,-2.536882 -3.805323,-3.963878 -2.378326,-1.426996 -5.443725,-1.426996 -3.012547,0 -5.443725,1.426996 -2.431178,1.426996 -3.858174,3.963878 -1.426996,2.48403 -1.426996,5.60228 0,3.171102 1.426996,5.655132 1.426996,2.48403 3.858174,3.963877 2.431178,1.426996 5.443725,1.426996 z" />
   </g>
 </svg>
