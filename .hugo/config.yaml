@@ -29,7 +29,7 @@ params:
     # Main hero title
     title: identinet
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: The solution to speed up the onboarding process of external contractors in projects!
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -44,14 +44,14 @@ params:
     # - infinite
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
+  # navbar:
   # - title: Features
   #   url: /#features
   # - title: Pricing
   #   url: /#pricing
-  - title: Contact us
-    url: /#section5
-    button: true
+  # - title: Contact us
+  #   url: /#section5
+  #   button: true
   # section1:
   #   title: Great power comes
   #   subtitle: with great responsibility
@@ -107,7 +107,7 @@ params:
   #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
   #     job: HR Manager
   #     img: 3
-  section5: true
+  # section5: true
   footer:
     bulmaLogo: false
     # Logo (from /images/logos/___)
@@ -126,18 +126,18 @@ params:
       icon: linkedin
     bulmalogo: true
     quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Latest news
-          link: https://blog.identinet.io
-      column2:
-        title: "About us"
-        links:
-        # - text: AGB
-        #   link: /agb
-        - text: Imprint
-          link: /imprint
+      # column1:
+      #   title: "Product"
+      #   links:
+      #   - text: Latest news
+      #     link: https://blog.identinet.io
+      # column2:
+      #   title: "About us"
+      #   links:
+      #   # - text: AGB
+      #   #   link: /agb
+      #   - text: Imprint
+      #     link: /imprint
       # column3:
       #   title: "Docs"
       #   links:
