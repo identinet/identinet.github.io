@@ -16,22 +16,22 @@ markup:
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy 
-  description: 
+  # Used as meta data; describe your site to make Google Bots happy
+  description: ssi self-sovereign identity authentication data exchange
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/identinet_long_background_transparent.svg
     link: /
   font:
-    name: "Comfortaa"
+    name: "Work Sans"
     sizes: [400,600]
   hero:
     # Main hero title
     title: identinet
     # Hero subtitle (optional)
-    subtitle: The digital identity solution to speed up the onboarding process of external contractors in projects!
+    subtitle: Authenticate everything, soon! We're a Self-Sovereign Identity startup based in Bremen, Germany. Our aim is to help companies cooperate digitally in a highly secure and highly automated way.
     # Button text
-    buttontext: Contact us
+    buttontext: Get in touch and learn more
     # Where the main hero button links to
     buttonlink: "mailto:hello@identinet.io"
     # Hero image (from static/images/___)
@@ -111,7 +111,7 @@ params:
   footer:
     bulmaLogo: false
     # Logo (from /images/logos/___)
-    logo: identinet_square_background_dark.svg
+    logo: identinet_round_background_transparent.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -124,7 +124,6 @@ params:
       icon: twitter
     - link: https://www.linkedin.com/company/identinet
       icon: linkedin
-    bulmalogo: true
     quicklinks:
       # column1:
       #   title: "Product"

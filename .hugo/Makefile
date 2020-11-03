@@ -1,7 +1,13 @@
-.PHONY: serve build
+#!/usr/bin/env make -f
 
-serve:
+.PHONY: help
+help: ## Show this help (default)
+	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+
+.PHONY: serve
+serve: ## Serve the website
 	hugo server -D
 
-build:
+.PHONY: build
+build: ## Build website
 	hugo
