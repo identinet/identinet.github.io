@@ -29,7 +29,7 @@ params:
     # Main hero title
     title: identinet
     # Hero subtitle (optional)
-    subtitle: Authenticate everything, soon! We're a Self-Sovereign Identity startup based in Bremen, Germany. Our aim is to help companies cooperate digitally in a highly secure and highly automated way.
+    subtitle: Secure data exchange & workflows across organizations! We're a Self-Sovereign Identity startup based in Bremen, Germany. Our aim is to help companies cooperate digitally in a highly secure and automated way.
     # Button text
     buttontext: Get in touch and learn more
     # Where the main hero button links to
