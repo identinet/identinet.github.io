@@ -1,0 +1,98 @@
+{
+  "@context":
+  [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "type":
+  [
+    "VerifiablePresentation"
+  ],
+  "verifiableCredential":
+  [
+    {
+      "@context":
+      [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1",
+        {
+          "schema": "https://schema.org/"
+        }
+      ],
+      "type":
+      [
+        "VerifiableCredential",
+        "schema:Organization"
+      ],
+      "credentialSubject":
+      {
+        "id": "did:web:identinet.io",
+        "schema:vatID": "DE360224533",
+        "schema:telephone": "+49 1522 9772744",
+        "schema:legalName": "identinet GmbH",
+        "schema:email": "support@identinet.io",
+        "schema:taxID": "60 118 18003",
+        "schema:location":
+        {
+          "schema:addressCountry": "DE",
+          "schema:addressLocality": "Bremen",
+          "schema:addressRegion": "Bremen",
+          "schema:postalCode": "28199",
+          "schema:streetAddress": "Werdertor 2",
+          "type": "schema:PostalAddress"
+        }
+      },
+      "issuer": "did:web:identinet.io",
+      "issuanceDate": "2024-04-11T12:56:31Z",
+      "proof":
+      {
+        "type": "Ed25519Signature2020",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zKKyLBJhTfGLVJJhyAdH4dvj6BLbUMetz6o12cJDAmXv5jBSQk1n5fsRSMUg3u6u7E4F8gzrwsTeP8bNTiDH4juU",
+        "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
+        "created": "2024-04-11T12:56:31.951068142Z"
+      }
+    },
+    {
+      "@context":
+      [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1",
+        {
+          "schema": "https://schema.org/"
+        }
+      ],
+      "type":
+      [
+        "VerifiableCredential",
+        "schema:Brand"
+      ],
+      "credentialSubject":
+      {
+        "id": "did:web:identinet.io",
+        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430",
+        "schema:name": "identinet",
+        "schema:identifier": "018595430"
+      },
+      "issuer": "did:web:identinet.io",
+      "issuanceDate": "2024-04-11T12:56:32Z",
+      "proof":
+      {
+        "type": "Ed25519Signature2020",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3pT3h6DudPGrF3zGrCmxKHAgppdDjAQPiJRW247TRTD9RhAaoz5Bei3u1ZfQcEdLCcescBf9RuRVDYLmZQXj9LqV",
+        "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
+        "created": "2024-04-11T12:56:32.293836522Z"
+      }
+    }
+  ],
+  "proof":
+  {
+    "type": "Ed25519Signature2020",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3em4Lb8QWZD2ALG512Gm5UGeXLyi15DUqT434Ej9RncfrQwRG6zcL76jgko7gQpHSBin43L9XS6K7EBYLDVGVBnc",
+    "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
+    "created": "2024-04-11T12:56:32.636890899Z"
+  },
+  "holder": "did:web:identinet.io"
+}
