@@ -35,5 +35,11 @@
   "assertionMethod":
   [
     "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8"
-  ]
+  ],
+  "service": [
+    {
+      "id": "did:web:identinet.io#presentation",
+      "type": "LinkedVerifiablePresentation",
+      "serviceEndpoint": "https://identinet.io/.well-known/presentation.json"
+    }
 }
