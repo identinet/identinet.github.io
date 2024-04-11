@@ -1,25 +1,22 @@
 {
-  "@context":
-  [
+  "@context": [
     "https://www.w3.org/ns/did/v1",
+    "https://identity.foundation/linked-vp/contexts/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1",
     {
-      "publicKeyJwk":
-      {
+      "publicKeyJwk": {
         "@id": "https://w3id.org/security#publicKeyJwk",
         "@type": "@json"
       }
     }
   ],
   "id": "did:web:identinet.io",
-  "verificationMethod":
-  [
+  "verificationMethod": [
     {
       "id": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:identinet.io",
-      "publicKeyJwk":
-      {
+      "publicKeyJwk": {
         "kty": "OKP",
         "kid": "FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
         "crv": "Ed25519",
@@ -28,12 +25,10 @@
       }
     }
   ],
-  "authentication":
-  [
+  "authentication": [
     "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8"
   ],
-  "assertionMethod":
-  [
+  "assertionMethod": [
     "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8"
   ],
   "service": [
@@ -42,4 +37,5 @@
       "type": "LinkedVerifiablePresentation",
       "serviceEndpoint": "https://identinet.io/.well-known/presentation.json"
     }
+  ]
 }
