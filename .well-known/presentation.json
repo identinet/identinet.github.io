@@ -21,28 +21,28 @@
       ],
       "credentialSubject": {
         "id": "did:web:identinet.io",
-        "schema:legalName": "identinet GmbH",
+        "schema:email": "support@identinet.io",
+        "schema:taxID": "60 118 18003",
+        "schema:vatID": "DE360224533",
+        "schema:telephone": "+49 1522 9772744",
         "schema:location": {
           "schema:addressCountry": "DE",
           "schema:addressLocality": "Bremen",
           "schema:addressRegion": "Bremen",
-          "schema:postalCode": "28199",
-          "schema:streetAddress": "Werdertor 2",
+          "schema:postalCode": "28195",
+          "schema:streetAddress": "Am Wall 174",
           "type": "schema:PostalAddress"
         },
-        "schema:telephone": "+49 1522 9772744",
-        "schema:email": "support@identinet.io",
-        "schema:taxID": "60 118 18003",
-        "schema:vatID": "DE360224533"
+        "schema:legalName": "identinet GmbH"
       },
       "issuer": "did:web:identinet.io",
-      "issuanceDate": "2025-05-09T11:16:33Z",
+      "issuanceDate": "2025-05-09T12:36:58Z",
       "proof": {
         "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-        "created": "2025-05-09T11:16:33.723367839Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..NgY2sjKxHuT3rqX9fHXSql2UV3F5iRF3BkMsQXicu-aA-sn6aVd3jQAVeIoPpYcC_5HA4mQ3f4Nq-5jQWQ9SCA"
+        "created": "2025-05-09T12:36:58.622085591Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..IlPJHcnzPTifENzIq4MjJfNBWFwpgRE_NSer-cjlLckvJXmAUzEhTQpV3aYeOAMA_66M9dvAWYtY0xZl7-4mBQ"
       }
     },
     {
@@ -60,8 +60,8 @@
       "credentialSubject": {
         "id": "did:web:identinet.io",
         "schema:name": "identinet",
-        "schema:identifier": "018595430",
-        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430"
+        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430",
+        "schema:identifier": "018595430"
       },
       "issuer": "did:web:identinet.io",
       "issuanceDate": "2025-05-09T11:16:50Z",
@@ -78,8 +78,8 @@
     "type": "JsonWebSignature2020",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-    "created": "2025-05-09T12:28:42.098962451Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..lRc49s_OlyWGoGUwpTp1uoZ9s34VwvvShFmm-Plz10olvnNxMHpcX8jLSNL-zNdZBBG8AJ-5IJUKpdebgpZTAQ"
+    "created": "2025-05-09T12:37:16.155447329Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..n0DSM3SDSTFDs228CoRhu3l3ezBTuQ4LXlIahm7kcrgk6wG3Gjek_QA7p5CgOIFksE5nUeZFkxM2zb-sL4A7DQ"
   },
   "holder": "did:web:identinet.io"
 }
