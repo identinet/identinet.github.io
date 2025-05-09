@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/security/suites/ed25519-2020/v1"
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "type": [
     "VerifiablePresentation"
@@ -21,7 +21,7 @@
       ],
       "credentialSubject": {
         "id": "did:web:identinet.io",
-        "schema:email": "support@identinet.io",
+        "schema:legalName": "identinet GmbH",
         "schema:location": {
           "schema:addressCountry": "DE",
           "schema:addressLocality": "Bremen",
@@ -30,10 +30,10 @@
           "schema:streetAddress": "Werdertor 2",
           "type": "schema:PostalAddress"
         },
-        "schema:legalName": "identinet GmbH",
         "schema:telephone": "+49 1522 9772744",
-        "schema:vatID": "DE360224533",
-        "schema:taxID": "60 118 18003"
+        "schema:email": "support@identinet.io",
+        "schema:taxID": "60 118 18003",
+        "schema:vatID": "DE360224533"
       },
       "issuer": "did:web:identinet.io",
       "issuanceDate": "2025-05-09T11:16:33Z",
@@ -59,9 +59,9 @@
       ],
       "credentialSubject": {
         "id": "did:web:identinet.io",
-        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430",
         "schema:name": "identinet",
-        "schema:identifier": "018595430"
+        "schema:identifier": "018595430",
+        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430"
       },
       "issuer": "did:web:identinet.io",
       "issuanceDate": "2025-05-09T11:16:50Z",
@@ -75,14 +75,11 @@
     }
   ],
   "proof": {
-    "@context": [
-      "https://w3id.org/security/suites/jws-2020/v1"
-    ],
     "type": "JsonWebSignature2020",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-    "created": "2025-05-09T11:19:20.159728164Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..0mgWaIfvW80VHt3EVwFV4uQ9mJHw680A39dVkdQn9at0fpU4iXdLkjpyW_dfEGHUIPFlodbEj7MoJ1jP4OkSAQ"
+    "created": "2025-05-09T12:28:42.098962451Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..lRc49s_OlyWGoGUwpTp1uoZ9s34VwvvShFmm-Plz10olvnNxMHpcX8jLSNL-zNdZBBG8AJ-5IJUKpdebgpZTAQ"
   },
   "holder": "did:web:identinet.io"
 }
