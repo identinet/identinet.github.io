@@ -1,98 +1,88 @@
 {
-  "@context":
-  [
+  "@context": [
     "https://www.w3.org/2018/credentials/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  "type":
-  [
+  "type": [
     "VerifiablePresentation"
   ],
-  "verifiableCredential":
-  [
+  "verifiableCredential": [
     {
-      "@context":
-      [
+      "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/ed25519-2020/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
         {
           "schema": "https://schema.org/"
         }
       ],
-      "type":
-      [
+      "type": [
         "VerifiableCredential",
         "schema:Organization"
       ],
-      "credentialSubject":
-      {
+      "credentialSubject": {
         "id": "did:web:identinet.io",
-        "schema:vatID": "DE360224533",
-        "schema:telephone": "+49 1522 9772744",
-        "schema:legalName": "identinet GmbH",
         "schema:email": "support@identinet.io",
-        "schema:taxID": "60 118 18003",
-        "schema:location":
-        {
+        "schema:location": {
           "schema:addressCountry": "DE",
           "schema:addressLocality": "Bremen",
           "schema:addressRegion": "Bremen",
           "schema:postalCode": "28199",
           "schema:streetAddress": "Werdertor 2",
           "type": "schema:PostalAddress"
-        }
+        },
+        "schema:legalName": "identinet GmbH",
+        "schema:telephone": "+49 1522 9772744",
+        "schema:vatID": "DE360224533",
+        "schema:taxID": "60 118 18003"
       },
       "issuer": "did:web:identinet.io",
-      "issuanceDate": "2024-04-11T12:56:31Z",
-      "proof":
-      {
-        "type": "Ed25519Signature2020",
+      "issuanceDate": "2025-05-09T11:16:33Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
-        "proofValue": "zKKyLBJhTfGLVJJhyAdH4dvj6BLbUMetz6o12cJDAmXv5jBSQk1n5fsRSMUg3u6u7E4F8gzrwsTeP8bNTiDH4juU",
         "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-        "created": "2024-04-11T12:56:31.951068142Z"
+        "created": "2025-05-09T11:16:33.723367839Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..NgY2sjKxHuT3rqX9fHXSql2UV3F5iRF3BkMsQXicu-aA-sn6aVd3jQAVeIoPpYcC_5HA4mQ3f4Nq-5jQWQ9SCA"
       }
     },
     {
-      "@context":
-      [
+      "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/ed25519-2020/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
         {
           "schema": "https://schema.org/"
         }
       ],
-      "type":
-      [
+      "type": [
         "VerifiableCredential",
         "schema:Brand"
       ],
-      "credentialSubject":
-      {
+      "credentialSubject": {
         "id": "did:web:identinet.io",
         "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/018595430",
         "schema:name": "identinet",
         "schema:identifier": "018595430"
       },
       "issuer": "did:web:identinet.io",
-      "issuanceDate": "2024-04-11T12:56:32Z",
-      "proof":
-      {
-        "type": "Ed25519Signature2020",
+      "issuanceDate": "2025-05-09T11:16:50Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z3pT3h6DudPGrF3zGrCmxKHAgppdDjAQPiJRW247TRTD9RhAaoz5Bei3u1ZfQcEdLCcescBf9RuRVDYLmZQXj9LqV",
         "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-        "created": "2024-04-11T12:56:32.293836522Z"
+        "created": "2025-05-09T11:16:50.776637020Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..Hd_cBN05Nf5gGqkc9Tjwzi69ejF9oZUvd_g5iC63C9vhYqoDGSjKB-dxqWwoe-r8F2U3b3LZlZVbFpdJb9LTCA"
       }
     }
   ],
-  "proof":
-  {
-    "type": "Ed25519Signature2020",
+  "proof": {
+    "@context": [
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": "JsonWebSignature2020",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z3em4Lb8QWZD2ALG512Gm5UGeXLyi15DUqT434Ej9RncfrQwRG6zcL76jgko7gQpHSBin43L9XS6K7EBYLDVGVBnc",
     "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-    "created": "2024-04-11T12:56:32.636890899Z"
+    "created": "2025-05-09T11:19:20.159728164Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..0mgWaIfvW80VHt3EVwFV4uQ9mJHw680A39dVkdQn9at0fpU4iXdLkjpyW_dfEGHUIPFlodbEj7MoJ1jP4OkSAQ"
   },
   "holder": "did:web:identinet.io"
 }
