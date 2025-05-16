@@ -6,23 +6,24 @@
   "id": "did:web:identinet.io",
   "verificationMethod": [
     {
-      "id": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
+      "id": "did:web:identinet.io#gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo",
       "type": "JsonWebKey2000",
       "controller": "did:web:identinet.io",
       "publicKeyJwk": {
-        "kty": "OKP",
-        "kid": "FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-        "crv": "Ed25519",
-        "alg": "EdDSA",
-        "x": "KMaCH1hlQezIlx9MYb4jjewG94P7MuaMwgoZxwkI2Fc"
+        "kty": "EC",
+        "kid": "gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo",
+        "crv": "P-256",
+        "alg": "ES256",
+        "x": "KGQ7H5cBy8yALsG8OOUpyKVseRBbiHznTcDL7UMNNM4",
+        "y": "le6Qn0u6Mm7ql9vZrL1opmA-FpB3mEmUdC9B2zQ2M00"
       }
     }
   ],
   "authentication": [
-    "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8"
+    "did:web:identinet.io#gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo"
   ],
   "assertionMethod": [
-    "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8"
+    "did:web:identinet.io#gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo"
   ],
   "service": [
     {
