@@ -16,13 +16,13 @@
         "origin": "https://identinet.io"
       },
       "issuer": "did:web:identinet.io",
-      "issuanceDate": "2025-05-09T11:09:25Z",
+      "issuanceDate": "2025-05-16T16:23:42Z",
       "proof": {
         "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:identinet.io#FbRv7gbf8GOu8NC1nqyItDmYlKrMS135ZJ4txG5wUY8",
-        "created": "2025-05-09T11:09:26.302195809Z",
-        "jws": "eyJhbGciOiJFZERTQSIsImtpZCI6IkZiUnY3Z2JmOEdPdThOQzFucXlJdERtWWxLck1TMTM1Wko0dHhHNXdVWTgiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..CM51_PO8mPhYV5FzVdQkbg6i6YIX1E91_s7Wma5L40O7xmY1oEK_Ig-scEyA057YLtOqNDn23Iu4E6PfeInhDw"
+        "verificationMethod": "did:web:identinet.io#gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo",
+        "created": "2025-05-16T16:23:43.661239974Z",
+        "jws": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImdsN1BNdFlMaDlJbXBBZXRBRHFSanpBcTNqM2xxUGRXXy1BZVJBblZNT28iLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..f1SXm1KYJpBI5R9I5zue4uhB5Kv_DOUkOZc7Cs5BNqa0ManqmlDFvb-QvOI7rkSTMTySs-0GHA1z3gPlzqZqDw"
       }
     }
   ]
