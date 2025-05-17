@@ -9,7 +9,7 @@
   "verificationMethod": [
     {
       "id": "did:web:identinet.io#gl7PMtYLh9ImpAetADqRjzAq3j3lqPdW_-AeRAnVMOo",
-      "type": "JsonWebKey2000",
+      "type": "JsonWebKey2020",
       "controller": "did:web:identinet.io",
       "publicKeyJwk": {
         "kty": "EC",
